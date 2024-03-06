@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Bree+Serif&family=Kanit:wght@300;500&family=Kdam+Thmor+Pro&family=League+Spartan:wght@100..900&family=Merriweather+Sans&family=Montserrat:wght@400;500&family=Newsreader:opsz@6..72&family=Oswald&family=Outfit:wght@100..900&family=Poppins&family=Raleway:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Bree+Serif&family=Kanit:wght@300;500&family=Kdam+Thmor+Pro&family=League+Spartan:wght@100..900&family=Merriweather+Sans&family=Montserrat:wght@400;500&family=Newsreader:opsz@6..72&family=Oswald&family=Outfit:wght@100..900&family=Poppins&family=Raleway:ital,wght@1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@font-face {
+  font-family: "DS-Digital";
+  src: url("https://db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.eot");
+  src: url("https://db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.svg#DS-Digital")format("svg");
+}  
+  :root{
+    --main_background:hsl(222, 26%, 31%);
+    --toggle-keypad_background:hsl(223, 31%, 20%);
+    --screen_background:hsl(224, 36%, 15%);
+    --key_background:hsl(30, 25%, 89%);
+    --key_background_active:hsl(0, 0%, 100%);
+    --box_shadow1: 0 4px 0 0  hsl(28, 16%, 65%);
+    --del-reset_background:hsl(225, 21%, 49%);
+    --del-reset_shadow: 0 4px 0 0  hsl(224, 28%, 35%);
+    --equal_background:hsl(6, 63%, 50%);
+    --equal_shadow:0 4px 0 0  hsl(6, 70%, 34%);
+    --key_color:hsl(221, 14%, 31%);
+    --body_color:hsl(0, 0%, 100%);
+    --del_color:hsl(0, 0%, 100%);
+    --equal_color:hsl(0, 0%, 100%);
+    --del_reset_active:hsl(226, 32%, 69%);
+    --equal_active: hsl(6, 74%, 64%) ;
+  }
+    .container{
+      width: 325px;
+    }
+    .toggle_background{
+      width: 58px;
+      height: 24px;
+      border-radius: 15px;
+      background-color:var(--toggle-keypad_background);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 0 0 5px ;
+    }
+    .toggle_background input[type=radio]{
+    display: none;
+    }
+    .toggle_btn{
+      width:15px;
+      height: 15px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    #firstbtn{
+      background-color: hsl(6, 63%, 50%);
+    }
+    #firstbtn:active{
+      background-color:hsl(6, 74%, 64%);
+    }
+
+    #secondbtn{
+      width:15px;
+      height: 15px;
+      border-radius: 50%;
+      background-color: hsl(25, 98%, 40%);
+      opacity: 0;
+      cursor: pointer;
+    }
+    #secondbtn:active{
+      background-color:hsl(25, 68%, 65%);
+    }
+    #thirdbtn{
+      width:15px;
+      height: 15px;
+      border-radius: 50%;
+      background-color: hsl(176, 100%, 44%);
+      cursor: pointer;
+      opacity: 0;
+    }
+    #thirdbtn:active{
+      background-color:hsl(176, 48%, 71%);
+    }
+    .toggle_container{
+      width:66px ;
+    }
+    .text{
+      text-align: center;
+    }
+    .theme_toggle{
+      display: flex;
+      justify-content:space-between;
+      width: 125px;
+      align-items:flex-end;
+      font-weight: 600;
+    }
+    .nav_container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 328px;
+    }
+    .screen{
+      width: 325px;
+      height:90px;
+      border-radius: 10px;
+      background-color: var(--screen_background);
+      margin-top: 35px;
+      display: grid;
+      align-items: center;
+      justify-content: flex-end;
+      font-size: 32px;
+      font-family: "DS-Digital";
+      padding: 0 8px;
+    }
+    .screen div{
+      text-align: end;
+    }
+    button{
+      border: none;
+      font-size: 21px;
+      font-weight: 700;
+      font-family: "Share Tech Mono", monospace;;
+    }
+    .box{
+      width: 60px;
+      height: 60px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px ;
+      background-color: var(--key_background);
+      box-shadow:var(--box_shadow1);
+      color:  var(--key_color); 
+      cursor: pointer;
+    }
+    .box:active{
+    background-color: var(--key_background_active);
+    }
+    .box2{
+      width: 130px;
+      height: 60px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px ;
+    }
+    .slash{
+      grid-area: slash;
+    }
+    .seven{
+      grid-area: seven;
+    }
+    .eight{
+      grid-area: eight;
+    }
+    .nine{
+      grid-area: nine;
+    }
+    .delete{
+      grid-area: delete;
+      background-color: var(--del-reset_background);
+      box-shadow:var(--del-reset_shadow);
+      font-size: 18px;
+      color: var(--del_color);
+      cursor: pointer;
+    }
+    .delete:active{
+      background-color:  var(--del_reset_active) ;
+    }
+    .four{
+      grid-area: four;
+    }
+    .five{
+      grid-area: five;
+    }
+    .six{
+      grid-area: six;
+    }
+    .plus{
+      grid-area: plus;
+    }
+    .one{
+      grid-area: one;
+    }
+    .two{
+      grid-area: two;
+    }
+    .three{
+      grid-area: three;
+    }
+    .minus{
+      grid-area: minus;
+    }
+    .dot{
+      grid-area: dot;
+    }
+    .asteric{
+      grid-area: asteric;
+    }
+    .reset{
+      grid-area: reset;
+      background-color: var(--del-reset_background) ;
+      box-shadow:var(--del-reset_shadow);
+      font-size: 18px;
+      color: var(--del_color);
+      cursor: pointer;
+    }
+    .reset:active{
+      background-color: var(--del_reset_active) ;
+    }
+    .equal{
+      grid-area: equal;
+      background-color: var(--equal_background);
+      box-shadow: var(--equal_shadow);
+      cursor: pointer;
+      color:var(--equal_color);
+      font-size: 18px;
+    }
+    .equal:active{
+      background-color:var(--equal_active);
+    }
+    .zero{
+      grid-area:zero;
+    }
+    .grid_container{
+      display: grid;
+      grid-template-areas: "seven eight nine delete"
+                           "four five six plus"
+                           "one two three minus"
+                           "dot zero slash asteric"
+                           "reset reset equal equal";
+      grid-template-columns: 1fr 1fr 1fr 1fr ;
+      grid-template-rows: auto ;
+      text-align: center;
+      width: 275px;
+      gap: 18px 10px;
+      background-color: var(--toggle-keypad_background);
+      margin-top: 20px;
+      padding: 25px 25px ;
+      border-radius: 10px;
+      font-size: 32px;
+    }
+    @media screen  and (min-width:900px){
+      .container{
+      width: 381px;
+    }
+    .grid_container{
+      width:331px;
+      gap: 18px 10px;
+      margin-top: 20px;
+      padding: 25px 25px ;
+      border-radius: 10px;
+      font-size: 32px;
+    }
+    .box{
+      width: 70px;
+      height: 40px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .box2{
+      width: 163px;
+      height: 40px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+    }
+    .screen{
+      width: 381px;
+      height:90px;
+    }
+    .nav_container{
+      width: 384px;
+    }
+    }

@@ -1,0 +1,13 @@
+body{
+  background-color: var(--main_background);
+  color: var(--body_color);
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}

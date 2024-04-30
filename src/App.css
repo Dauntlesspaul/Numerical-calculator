@@ -27,6 +27,9 @@
     --del_reset_active:hsl(226, 32%, 69%);
     --equal_active: hsl(6, 74%, 64%) ;
   }
+  *{
+    box-sizing: border-box;
+  }
     .container{
       width: 325px;
     }
@@ -232,7 +235,7 @@
       grid-template-columns: 1fr 1fr 1fr 1fr ;
       grid-template-rows: auto ;
       text-align: center;
-      width: 275px;
+      width:100%;
       gap: 18px 10px;
       background-color: var(--toggle-keypad_background);
       margin-top: 20px;
@@ -245,7 +248,7 @@
       width: 381px;
     }
     .grid_container{
-      width:331px;
+      width:100%;
       gap: 18px 10px;
       margin-top: 20px;
       padding: 25px 25px ;

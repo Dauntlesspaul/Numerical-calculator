@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# 🎨 React Calculator App with Theme Switching
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A visually intuitive and user-friendly calculator built with **React**, featuring **three beautifully designed themes**. Switch between themes with ease while performing basic arithmetic operations. Responsive, clean, and smooth — perfect for both desktop and mobile users.
 
-## Available Scripts
+🌐 [Live Demo](https://numerical-calculator.netlify.app/) 
+*(Replace with your actual live link)*
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🧮 Perform basic calculations: addition, subtraction, multiplication, division
+- 🎨 Three elegant themes to choose from
+- ⚡ Instant result display with smooth transitions
+- 🔁 Clear and backspace functions
+- 📱 Fully responsive design for all screen sizes
+- ⌨️ Optional keyboard input support
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🔥 Themes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Theme 1** – Classic dark with bold colors  
+- **Theme 2** – Light and minimal  
+- **Theme 3** – Soft pastel with modern styling
 
-### `npm run build`
+Users can switch themes with a toggle or button — stored in state for a seamless experience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📸 Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+- **Theme 1**  
+![Image](https://github.com/user-attachments/assets/710064a5-d51e-4b39-8573-732d638e5531)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Theme 2**  
+![Image](https://github.com/user-attachments/assets/bb51b351-ec34-4b18-ae33-44fbdfa6bcc9)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Theme 3**  
+![Image](https://github.com/user-attachments/assets/a6b8116d-b727-4f5b-abfa-9f52e75ad27c)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Built With
 
-## Learn More
+- React (Functional components + useState/useEffect)
+- CSS Modules / TailwindCSS / Styled-Components *(update based on what you used)*
+- HTML5
+- JavaScript (ES6+)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

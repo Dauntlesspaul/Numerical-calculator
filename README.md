@@ -20,8 +20,8 @@ A visually intuitive and user-friendly calculator built with **React**, featurin
 
 ## 🔥 Themes
 
-- **Theme 1** – Classic dark with bold colors  
-- **Theme 2** – Light and minimal  
+- **Theme 1** – Light and minimal  
+- **Theme 2** – Classic dark with bold colors  
 - **Theme 3** – Soft pastel with modern styling
 
 Users can switch themes with a toggle or button — stored in state for a seamless experience.
